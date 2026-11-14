@@ -57,6 +57,8 @@ This project is not affiliated with Higgsfield.
 
 ## Install
 
+**[Download the Claude-ready skill ZIP](downloads/ali-yassine-virality-forecaster-claude-skill.zip?raw=true)**
+
 **Claude Code**
 
 ```
@@ -68,8 +70,8 @@ Or copy `skills/virality-forecaster` into `~/.claude/skills/` (all your projects
 
 **Claude apps (web and desktop)**
 
-1. Download `virality-forecaster.zip` from the [latest release](https://github.com/aliameryassine-bit/Ali-Yassine-Virality-Forecaster/releases/latest).
-2. In Claude, go to Customize > Skills, click **+**, then **Create skill** > **Upload a skill**, and upload the zip.
+1. [Download the Claude-ready skill ZIP](downloads/ali-yassine-virality-forecaster-claude-skill.zip?raw=true). Do not use GitHub’s **Code → Download ZIP**, which contains the full repository.
+2. In Claude, go to Customize > Skills, click **+**, then **Create skill** > **Upload a skill**, and upload the skill ZIP without extracting it.
 
 Code execution needs to be on (Settings > Capabilities). See Anthropic's guide: [Use skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude).
 

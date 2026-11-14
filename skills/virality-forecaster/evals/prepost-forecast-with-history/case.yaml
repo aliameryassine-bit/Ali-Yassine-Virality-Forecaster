@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: prepost-forecast-with-history
+expected_outcome: |
+  Claude analyzes the clip with the bundled script and looks at the frame sheets, builds a baseline from the ten view counts, writes a six-dimension judgment with evidence, and reports the probabilities and range printed by vforecast.py next to the base rates, with a confidence note. It does not promise virality, and it says what it could not perceive (the clip has a tone but no speech).
+context:
+  scaffold_script: place-files.sh

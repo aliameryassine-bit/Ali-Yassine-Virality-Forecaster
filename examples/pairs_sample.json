@@ -1,0 +1,11 @@
+{
+  "items": ["hook-A-question", "hook-B-fail-first", "hook-C-result-first"],
+  "comparisons": [
+    {"a": "hook-A-question", "b": "hook-B-fail-first", "winner": "hook-B-fail-first", "margin": 2},
+    {"a": "hook-B-fail-first", "b": "hook-A-question", "winner": "hook-B-fail-first", "margin": 1},
+    {"a": "hook-A-question", "b": "hook-C-result-first", "winner": "hook-C-result-first", "margin": 1},
+    {"a": "hook-C-result-first", "b": "hook-A-question", "winner": "hook-A-question", "margin": 1},
+    {"a": "hook-B-fail-first", "b": "hook-C-result-first", "winner": "hook-B-fail-first", "margin": 2},
+    {"a": "hook-C-result-first", "b": "hook-B-fail-first", "winner": "hook-B-fail-first", "margin": 2}
+  ]
+}

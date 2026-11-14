@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: pick-between-two-hooks
+expected_outcome: |
+  Claude analyzes both clips, compares them pairwise in both orders, runs vforecast.py rank, and reports the calibrated chance that the top pick outperforms the other. If the script calls the result a lean or a toss-up, Claude says so and suggests testing both. Clip A opens on a direct claim; clip B opens on a greeting over a near-black frame, so A should be preferred.
+context:
+  scaffold_script: place-files.sh

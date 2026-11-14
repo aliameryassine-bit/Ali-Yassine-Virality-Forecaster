@@ -1,0 +1,19 @@
+{
+  "name": "virality-forecaster",
+  "description": "Forecast how a short-form video will perform as calibrated odds against the account's own baseline, update from early stats, and score every forecast",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ali Yassine"
+  },
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "tiktok",
+    "reels",
+    "shorts",
+    "forecasting",
+    "analytics"
+  ],
+  "homepage": "https://github.com/aliameryassine-bit/Ali-Yassine-Virality-Forecaster",
+  "repository": "https://github.com/aliameryassine-bit/Ali-Yassine-Virality-Forecaster"
+}

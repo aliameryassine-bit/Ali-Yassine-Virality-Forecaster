@@ -1,0 +1,32 @@
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Install Python packages
+        run: pip install numpy pillow
+      - name: End-to-end tests
+        run: python tests/run_tests.py
+      - name: Build the skill zip
+        run: |
+          cd skills
+          zip -r ../virality-forecaster.zip virality-forecaster \
+            -x "virality-forecaster/evals/*" -x "*/__pycache__/*" -x "*.pyc"
+      - name: Publish the release
+        run: gh release create "$GITHUB_REF_NAME" virality-forecaster.zip --title "$GITHUB_REF_NAME" --generate-notes
+        env:
+          GH_TOKEN: ${{ github.token }}

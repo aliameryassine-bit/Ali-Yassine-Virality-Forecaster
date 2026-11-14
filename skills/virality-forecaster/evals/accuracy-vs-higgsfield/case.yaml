@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: accuracy-vs-higgsfield
+expected_outcome: |
+  Claude does not claim to beat Higgsfield without a head-to-head on the user's own videos. It explains what is known about predictability from references/evidence.md, notes that Higgsfield's page publishes no accuracy figures, and offers the blind backtest (mode F) on about 30 of the user's past videos with Higgsfield's score as a column.

@@ -1,0 +1,14 @@
+{
+  "name": "virality-forecaster",
+  "description": "Calibrated forecasts for short-form video performance, with a scoreboard",
+  "owner": {
+    "name": "Ali Yassine"
+  },
+  "plugins": [
+    {
+      "name": "virality-forecaster",
+      "source": "./",
+      "description": "Forecast how a short-form video will perform as calibrated odds against the account's own baseline, update from early stats, and score every forecast"
+    }
+  ]
+}

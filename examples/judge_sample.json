@@ -1,0 +1,39 @@
+{
+  "video_id": "draft-moka-pot-myth",
+  "input": "video",
+  "platform": "tiktok",
+  "audience": "home coffee beginners who own basic gear",
+  "description": "22-second talking-head plus b-roll: creator claims the moka pot 'burnt taste' is a heat problem, shows the fix (pre-boiled water, low flame, pull early), ends on a side-by-side taste reaction.",
+  "hook_summary": "0.0s close-up of a sputtering moka pot with on-screen text 'You're burning it' while the first words are 'Your moka pot isn't bad, you are'.",
+  "subscores": {
+    "stop_power": 5.5,
+    "hold": 4.5,
+    "share_save": 5,
+    "comment_trigger": 5,
+    "rewatch_loop": 3,
+    "audience_fit": 6
+  },
+  "reasons": {
+    "stop_power": "Motion and sound from frame one, readable 3-word text, a direct challenge in the first sentence. No intro. Loses half a point because the first frame is dark.",
+    "hold": "Three clear steps keep it moving and the taste test is held to the end, but the middle b-roll runs 6 seconds with no new information.",
+    "share_save": "Useful and specific enough to save, and easy to send to 'that friend with the moka pot'. Low emotional charge.",
+    "comment_trigger": "The 'you are the problem' framing and the low-flame claim invite disagreement and personal methods.",
+    "rewatch_loop": "Linear payoff, no loop, nothing dense enough to need a second pass.",
+    "audience_fit": "Squarely the account's niche; gear the audience already owns; vertical, native look, captions on."
+  },
+  "context": {
+    "checked": true,
+    "topic_momentum": 0,
+    "related_activity": 1,
+    "freshness": 0,
+    "notes": "Moka pot 'fix' videos from two mid-size creators did well in the past month; the angle itself is common.",
+    "sources": ["(example) platform search for 'moka pot burnt', sorted by recent"]
+  },
+  "anchor_percentile": null,
+  "flags": [],
+  "blind_spots": ["sound choice unknown: judged on voice track only"],
+  "fixes": [
+    {"change": "Cut the 6-second b-roll at 0:09 to 2 seconds or put step text over it", "moves": "hold", "from": 4.5, "to": 5.5},
+    {"change": "Brighten or swap the first frame so the pot reads at thumb-scroll speed", "moves": "stop_power", "from": 5.5, "to": 6}
+  ]
+}

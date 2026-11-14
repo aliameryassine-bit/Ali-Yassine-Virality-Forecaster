@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# account data and analysis output (personal; keep out of the repo)
+virality-data/
+*_analysis/
+
+# build and eval output
+dist/
+*.zip
+skills/virality-forecaster/evals/results/
